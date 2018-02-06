@@ -13,4 +13,18 @@
 		<platform>all</platform>
 	</extension>
 </addon>
+
+<addon id="repository.golflix" name="Gold Flix Repositorio" version="0.0.1" provider-name="Wesley Rossini">
+	<extension point="xbmc.addon.repository" name="Demonstration Add-on Repository">
+		<info compressed="false">https://raw.githubusercontent.com/wesleyrossini/repository.golflix/master/addons.xml</info>
+		<checksum>https://raw.githubusercontent.com/wesleyrossini/repository.golflix/master/addons.xml.md5</checksum>
+		<datadir zip="true">https://github.com/wesleyrossini/repository.golflix/tree/master/repo</datadir>
+	</extension>
+	<extension point="xbmc.addon.metadata">
+		<summary>Gold Flix Repositorio</summary>
+		<description>Gold Flix Repositorio</description>
+		<disclaimer></disclaimer>
+		<platform>all</platform>
+	</extension>
+</addon>
 </addons>
